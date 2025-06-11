@@ -799,9 +799,9 @@ public:
             cout << "So du tai khoan dich (" << dichNode->data.soTaiKhoan << "): " << sddd(dichNode->data.soDu) << "\n";
             ResetColor();
         } else {
-            SetColor(12); cout << "\nSo du khong du! (" << nguonNode->data.soDu << ")!\n"; ResetColor();
+            SetColor(12); cout << "\nSo du khong du! (" << sddd(nguonNode->data.soDu) << ")!\n"; ResetColor();
         }
-        cout << "\nNhan phim bat ky de tiep tiep..."; _getch();
+        cout << "\nNhan phim bat ky de tiep tuc..."; _getch();
     }
 
     void kiemTraSoDu() const {
